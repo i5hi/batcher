@@ -33,7 +33,7 @@ Create a batching schedule via the configuration file. You can opt for :
 - Time-based batch schedule (e.g. execute the current batches ever 4 hours).
 - We recommend using both. For example, execute the batch every time the amount exceeds 1 Bitcoin or every hour, whichever comes first.
 
-Edit the config here <https://github.com/SatoshiPortal/batcher/blob/7d5fda30b5be3d0d8d655fecd59cce69c32a0cfb/src/config/BatcherConfig.ts>
+Edit the config here <https://github.com/SatoshiPortal/batcher/blob/master/src/config/BatcherConfig.ts>
 
 - `BATCH_TIMEOUT_MINUTES`: set this as the maximum frequency. If the threshold amount is not reached it will execute regardless at this frequency.
 
